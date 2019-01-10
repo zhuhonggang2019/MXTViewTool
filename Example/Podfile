@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'MXTViewTool_Example' do
+  pod 'MXTViewTool', :path => '../'
+
+  target 'MXTViewTool_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
