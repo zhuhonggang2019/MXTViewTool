@@ -1,0 +1,6 @@
+framework module MXTViewTool {
+  umbrella header "MXTViewTool-umbrella.h"
+
+  export *
+  module * { export * }
+}

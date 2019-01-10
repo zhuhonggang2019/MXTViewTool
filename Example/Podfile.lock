@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - MXTViewTool (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - MXTViewTool (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  MXTViewTool:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  MXTViewTool: ac35ed511a2b5976a7bca85c167039481cec4fe9
+
+PODFILE CHECKSUM: 574b520a672af340503e4882e284b813af89d199
+
+COCOAPODS: 1.5.3
